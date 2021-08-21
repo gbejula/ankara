@@ -1,0 +1,30 @@
+.button {
+  background-color: transparent;
+  border-color: black;
+  color: #2a9d8f;
+  cursor: pointer;
+  
+}
+
+.button:hover,
+.button:active {
+  color: #264653
+}
+
+.button span {
+  margin: 0 1rem;
+  
+  color: white;
+  font-weight: bold;
+}
+
+.button cart {
+  background-color: #264653;
+}
+
+.badge {
+  background-color: #264653;
+  border-radius: 30px;
+  padding: 0.1rem 1.25rem;
+  color: white;
+}
