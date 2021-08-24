@@ -3,12 +3,12 @@
   border-color: black;
   color: #2a9d8f;
   cursor: pointer;
-  
+  padding: 10px 0;
 }
 
 .button:hover,
 .button:active {
-  color: #264653
+  color: #264653;
 }
 
 .button span {
@@ -20,6 +20,7 @@
 
 .button cart {
   background-color: #264653;
+  margin: 10px 0;
 }
 
 .badge {
