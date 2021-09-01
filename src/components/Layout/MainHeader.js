@@ -6,7 +6,7 @@ const MainHeader = props => {
     <header className={classes.header}>
       <h1>Ankara</h1>
       <ul>
-        <li>About</li>
+        {/* <li>About</li> */}
         <li>
           <CartButton />
         </li>

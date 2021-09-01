@@ -1,9 +1,14 @@
 import Layout from './components/Layout/Layout';
+import { Container } from 'react-bootstrap';
 
 function App() {
   return (
     <Layout>
-      <h1>Hello World!</h1>
+      <main>
+        <Container>
+          <h1>Hello World!</h1>
+        </Container>
+      </main>
     </Layout>
   );
 }
