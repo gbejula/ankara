@@ -1,12 +1,13 @@
 import Layout from './components/Layout/Layout';
 import { Container } from 'react-bootstrap';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <Layout>
       <main>
         <Container>
-          <h1>Hello World!</h1>
+          <HomePage />
         </Container>
       </main>
     </Layout>
