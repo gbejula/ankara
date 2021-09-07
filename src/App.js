@@ -1,16 +1,20 @@
-import Layout from './components/Layout/Layout';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import HomePage from './pages/HomePage';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <Layout>
-      <main>
+    <Router>
+      <Header />
+      <main className='py-3'>
         <Container>
-          <HomePage />
+          <Route path='/' component={HomePage} exact />
         </Container>
       </main>
-    </Layout>
+      <Footer />
+    </Router>
   );
 }
 
