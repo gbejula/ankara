@@ -1,7 +1,15 @@
 import React from 'react';
+import { Link } from 'react-rotuer-dom';
+// import { Row, Col, ListGroup } from 'react-bootstrap';
+import products from '../products';
 
 const ProductPage = () => {
-  return <div>Product</div>;
+  const product = () => {};
+  return (
+    <>
+      <Link to='/'>Go back</Link>
+    </>
+  );
 };
 
 export default ProductPage;
