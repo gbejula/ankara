@@ -11,7 +11,7 @@ function App() {
       <main className='py-3'>
         <Container>
           <Route path='/' component={HomePage} exact />
-          {/* <Route path='/product/:id' component={ProductPage} /> */}
+          <Route path='/product/:id' component={ProductPage} />
         </Container>
       </main>
       <Footer />
